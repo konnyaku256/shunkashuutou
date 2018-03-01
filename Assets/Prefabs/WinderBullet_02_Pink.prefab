@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &174100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450684}
+  - 114: {fileID: 11452956}
+  m_Layer: 0
+  m_Name: WinderBullet_02_Pink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &450684
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11452956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d510b7b2032bd4da10582dd18f9170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 11455138, guid: b7b5e4deb729c594fb6910e93d4fc9c9, type: 2}
+  bulletType: 14
+  shotCount: 80
+  shotInterval: 0.1
+  _shotAngle: 0
+  _shotSpeed: 0.5
+  shotAngleRate: 1
+  bulletAngleRate: 0
+  bulletSpeedRate: 0
+  lineCount: 8
+  wInterval_1: 0
+  wInterval_2: 0
+  wInterval_3: 0
+  wInterval_4: 0
+  maxShotAngleRate: 0
+  maxBulletAngleRate: 0
+  shotAngleRange: 180
+  targetTag: 
+  randomRange: 0
+  wavingAngleRange: 0
+  cycle: 10
+  shotAngleBase: 270
+  winderAngleRange: 90
+  shotSpeedRate: 0
+  randomRangeMax: 0
+  randomRangeMin: 0
+  addSpeedRate: 0
+  guideTime: 0
+  pattern: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 174100}
+  m_IsPrefabParent: 1
