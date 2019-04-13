@@ -24,9 +24,9 @@ Windows版のリリースを行っています。
 
 [ニコニ・コモンズ](http://commons.nicovideo.jp/)
 
-## Licence
+## License
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[MIT](https://github.com/konnyaku256/shunkashuutou/blob/master/LICENSE)
 
 ## Author
 
